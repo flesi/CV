@@ -128,10 +128,19 @@ section ul li a:hover {
     color: #4CAF50;
 }
 
-#whatsappForm input,textarea,button{
+#experiencia ul li{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#experiencia ul p{
+    margin-top: 0;
+}
+
+/* #whatsappForm input,textarea,button{
 margin-bottom: 1%;
 display: block;
-}
+} */
 
 footer {
     text-align: center;
