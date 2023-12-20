@@ -216,7 +216,7 @@ footer {
         vertical-align: middle;
     }
 
-    #aside-content article{
+    #aside-content div{
         display: inline-block;
         vertical-align: middle;
         text-align: center;
