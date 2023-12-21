@@ -64,6 +64,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    box-shadow: 0px 5px 10px 5px black;
 }
 nav {
     background-color: #4CAF50;
@@ -73,6 +74,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: 0px 5px 10px 5px black;
 }
 
 
@@ -130,7 +132,7 @@ section ul li a:hover {
 
 
 
-#experiencia ul li{
+#experiencia ul li,#educacion ul li{
     font-weight: bold;
     /* text-decoration: underline; */
 }
@@ -140,6 +142,20 @@ section ul li a:hover {
     font-weight: normal;
 }
 
+#educacion ul li p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+#educacion ul li ul {
+    margin-bottom: 5%;
+}
+
+#educacion ul li ul li{
+    font-weight: normal;
+    margin-top: 2%;
+}
 
 /* #whatsappForm input,textarea,button{
 margin-bottom: 1%;
@@ -189,6 +205,7 @@ footer {
 
 
 @media screen and (max-width: 900px), (max-height: 500px) {
+
     aside{
         position: relative;
         display: inline-block;
@@ -207,12 +224,15 @@ footer {
         width: 8em;
         display: block;
         margin: 0 auto;
+        width: 20%;
+        height: 20%;
     }
 
     #aside-content{
         display: inline-block;
         width: 100%;
         /* border: 1px solid red; */
+        
     }
 
     .foto-perfil{
