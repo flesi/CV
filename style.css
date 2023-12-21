@@ -221,7 +221,6 @@ footer {
 
     #aside-image{
         display: inline-block;
-        width: 8em;
         display: block;
         margin: 0 auto;
         width: 20%;
@@ -231,9 +230,11 @@ footer {
     #aside-content{
         display: inline-block;
         width: 100%;
-        /* border: 1px solid red; */
-        
+        /* border: 1px solid red; */;
+        /* font-size: small; */
     }
+
+    
 
     .foto-perfil{
         margin-bottom: 0px;
